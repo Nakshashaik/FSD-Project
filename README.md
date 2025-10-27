@@ -16,13 +16,13 @@ Screenshots of the working project:
 ## 📸 Screenshots
 
 **Homepage**
-![Homepage](./screenshots/homepage.png)
+![Homepage](./screenshots/Homepage.png)
 
 **Chatbot in Action**
-![Chatbot](./screenshots/chatbot.png)
+![Chatbot](./screenshots/Achievements.png)
 
 **Departments Section**
-![Departments](./screenshots/departments.png)
+![Departments](./screenshots/Deptpage.png)
 
 ---
 
