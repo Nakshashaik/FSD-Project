@@ -8,9 +8,7 @@ The chatbot does not include backend part as of now.
 ---
 
 ## 🖥️ Output  
-- A **professional college website interface** with navigation sections such as *About, Departments, Placements,* and *Achievements.*  
-- An **AI-powered chatbot** integrated using **Kommunicate/Dialogflow**, which responds to queries like “placements,” “departments,” etc.  
-- Displays placement details, top recruiters, and college highlights.  
+- A **professional college website and chatbot interface** with navigation sections such as *About, Departments, Placements,* and *Achievements.*  
 
 Screenshots of the working project:  
 ## 📸 Screenshots
@@ -27,7 +25,7 @@ Screenshots of the working project:
 ---
 
 ## 👩‍💻 Developed By  
-**FSD Project Team – GNITS**  
+**FSD Project Team – CSE-B**  
 - 23251A05B8  
 - 23251A05C6  
 - 23251A05C8  
