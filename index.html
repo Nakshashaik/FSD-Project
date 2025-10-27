@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G. Narayanamma Institute of Technology and Science</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="logo">
+      <h1>GNITS</h1>
+      <p>Empowering Women in Technology</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#placements">Placements</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Welcome to GNITS</h2>
+      <center><p>Excellence in engineering education for women. Inspiring innovation and leadership.</p></center>
+      <center><button class="cta-btn">Explore Departments</button></center>
+    </div>
+    <div class="hero-img">
+      <img src="assets/GNITS_CAMPUS.jpg" alt="GNITS Campus">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About GNITS</h2>
+    <div class="content">
+      <img src="assets/CAMPUSjpg.jpg" alt="Students Learning">
+      <p>GNITS is a premier women's engineering college in Hyderabad. Established in 1997, the college is committed to nurturing talented engineers, innovators, and leaders. Our campus provides modern labs, libraries, and collaborative learning spaces.</p>
+    </div>
+  </section>
+
+  <section class="departments" id="departments">
+    <h2>Departments</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="assets/CSE_DEPT.png" alt="CSE Department">
+        <h3>Computer Science & Engineering</h3>
+        <p>Cutting-edge curriculum in AI, ML, Data Science, and Software Engineering.</p>
+      </div>
+      <div class="card">
+        <img src="assets/ECE_DEPT.jpg" alt="ECE Department">
+        <h3>Electronics & Communication Engineering</h3>
+        <p>Hands-on learning in VLSI, IoT, Embedded Systems, and Communication Networks.</p>
+      </div>
+      <div class="card">
+        <img src="assets/IT_DEPT.webp" alt="IT Department">
+        <h3>Information Technology</h3>
+        <p>Focus on modern technologies like Cloud Computing, Cybersecurity, and Software Development.</p>
+      </div>
+      <div class="card">
+        <img src="assets/EEE.jpeg" alt="EEE Department">
+        <h3>Electrical & Electronics Engineering</h3>
+        <p>Training in Power Systems, Smart Grids, Renewable Energy, and Automation.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="achievements" id="achievements">
+    <h2>Achievements</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Top Placements</h3>
+        <p>Collaborations with companies like Amazon, Infosys, TCS, Deloitte, Microsoft.</p>
+      </div>
+      <div class="card">
+        <h3>Research & Innovation</h3>
+        <p>Faculty and students publish in national and international journals and patents.</p>
+      </div>
+      <div class="card">
+        <h3>Workshops & Events</h3>
+        <p>Over 25 workshops and 20 hackathons organized annually for students’ growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="placements" id="placements">
+    <h2>Placements</h2>
+    <p>Our placement cell ensures students get industry exposure and real-world experience. Companies like Amazon, Infosys, Deloitte, and TCS actively recruit from GNITS.</p>
+  </section>
+
+
+  <footer>
+    <p>Developed by 23251A05B8, 23251A05C6, 23251A05C8</p>
+  </footer>
+
+ 
+  <div class="chatbot-icon" id="chatbotToggle">💬</div>
+  <div class="chatbot-container" id="chatbotContainer">
+    <div class="chat-header">
+      <img src="assets/bot-avatar.jpg" alt="Bot" class="avatar" />
+      <div class="chat-user">
+        <h3>GNITS Assistant</h3>
+        <p id="lastSeen">Online</p>
+      </div>
+      <span id="closeChat">✖</span>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <div class="message incoming">
+        <img src="assets/user-avatar.jpg" class="avatar" />
+        <div class="msg-content">
+          <p>Hello! I'm GNITS Assistant. How can I help you today?</p>
+          <span class="time"></span>
+        </div>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="chatInput" placeholder="Type your message...">
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
